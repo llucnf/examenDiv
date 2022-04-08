@@ -13,8 +13,8 @@ class GraficoController extends Controller
      */
     public function index()
     {
-        $datos=[ 0,0,1,3,5,2,15,2,6,1,23,5];
-        $datos2=[ 23,2,3,4,5,7,15,0,6,1,12,4];
+        $datos=[ 12,23,5,9,7,10,4,9,14,10,3,6];
+        $datos2=[ 10,5,21,8,7,11,6,5,12,9,3,2];
         $meses=['enero','febrero','marzo','abril','mayo','junio','julio','agosto','septiembre','octubre','noviembre','diciembre'];
         //dd($datos);
         return view('grafico')->with('datos',$datos)->with('meses',$meses)->with('datos2',$datos2);

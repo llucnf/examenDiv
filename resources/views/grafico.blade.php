@@ -3,7 +3,8 @@
 
 @section('content')
     
-<div class="p-2 bg-white border-b border-gray-200">
+<div class="p-2 w-70  bg-white border-b border-gray-200">
+    <h1>Ventas producto Z 2020-2021</h1>
     <canvas id="myChart"></canvas>
 
     <script>
